@@ -9,9 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.5.7",
+    "@swc/helpers": "^0.5.23",
+    "axios": "^1.18.0",
+    "mongoose": "^9.7.1",
     "next": "16.2.9",
+    "openai": "^6.44.0",
+    "prismjs": "^1.30.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-hot-toast": "^2.6.0",
+    "react-markdown": "^10.1.0",
+    "svix": "^1.96.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
