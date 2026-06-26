@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+require("dotenv").config();
 let cached = global.mongoose || { conn: null, promise: null };
 
 export default async function connectDB(){
